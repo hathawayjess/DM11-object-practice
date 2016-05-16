@@ -10,7 +10,7 @@ var me = {
   age: 27
 }
 
-// alert(me.name);
+alert(me.name);
 
 
 
@@ -76,7 +76,7 @@ that is named color, with the value being the color of your backpack. */
 //After you do the above, alert your entire backPack object.
 
   //Code here
-  // alert(backPack);
+  alert(backPack);
 
 /*You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -112,7 +112,7 @@ Instead, console.log your whole backPack object and then check out the console. 
   //Code Here
 
   for (var prop in alsoMe) {
-    // alert(alsoMe[prop]);
+    alert(alsoMe[prop]);
   }
 
 
@@ -139,7 +139,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
   //Code Here
   for (var prop in album) {
-    // alert(prop);
+    alert(prop);
   }
 
 
@@ -167,7 +167,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
   for (var prop in states) {
     if (states[prop] > 30000) {
-      // alert(prop);
+      alert(prop);
     }
   }
 
